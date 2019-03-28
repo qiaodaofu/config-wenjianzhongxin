@@ -71,7 +71,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
     driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
     # driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8 # 数据库连接地址
+    url: jdbc:mysql://localhost:3306/test1?serverTimezone=GMT%2B8 # 数据库连接地址
     username: root # 数据库用户名
     password: root # 数据库连接密码
 # security:
@@ -101,7 +101,7 @@ eureka:
 
 info:
   app.name: microcloud-provider-product
-  company.name: enjoy11
+  company.name: enjoy
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
