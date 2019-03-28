@@ -16,7 +16,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
     driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
     # driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8 # 数据库连接地址
+    url: jdbc:mysql://localhost:3306/test1?serverTimezone=GMT%2B8 # 数据库连接地址
     username: root # 数据库用户名
     password: root # 数据库连接密码
 # security:
@@ -90,7 +90,7 @@ eureka:
     register-with-eureka: true
     service-url:
       #      通过这种方式注册服务到右验证的注册中心
-      defaultZone: http://admin:enjoy1@127.0.0.1:7001/eureka
+      defaultZone: http://admin:enjoy@127.0.0.1:7001/eureka
   #      defaultZone: http://admin:enjoy@eureka1:7001/eureka,http://admin:enjoy@eureka2:7002/eureka,http://admin:enjoy@eureka3:7003/eureka
 
   instance:
