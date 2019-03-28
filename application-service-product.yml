@@ -101,7 +101,7 @@ eureka:
 
 info:
   app.name: microcloud-provider-product
-  company.name: enjoy
+  company.name: enjoy11
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
